@@ -14,13 +14,13 @@ function updateDogState() {
     happinessMeter.value = happiness;
 
     if (hunger >= 80) {
-        dogImage.src = "./images/dog-hungry.gif";
+        dogImage.src = "./dog-hungry.gif";
         statusMessage.textContent = "Your dog is very hungry!";
     } else if (hunger < 20) {
-        dogImage.src = "./images/dog-neutral.gif";
+        dogImage.src = "./dog-neutral.gif";
         statusMessage.textContent = "Your dog is not hungry.";
     } else if (happiness >= 80) {
-        dogImage.src = "./images/dog-happy.gif";
+        dogImage.src = "./dog-happy.gif";
         statusMessage.textContent = "Your dog is very happy!";
     } else if (happiness <= 20) {
         dogImage.src = "dog-sad.gif";
